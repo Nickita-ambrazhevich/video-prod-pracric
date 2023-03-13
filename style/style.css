@@ -1,0 +1,301 @@
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Inter-Regular.ttf);
+  }
+* {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+box-sizing: border-box;   
+color: #ffff;
+}
+body{
+background-color: #20333F;
+font: 400 14px/ 1.4 "Inter", sans-serif;
+}
+section {
+width: 100%;
+}
+li {
+list-style: none;
+}
+a{
+text-decoration: none;
+color: #ffff;
+}
+header{
+    flex-direction: row;
+    width: 100%;
+    padding: 0 calc(50% - 700px);
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 100%;
+}
+.main-logo{
+    margin-right: 144px;
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+}
+.pages-links{
+    margin-right: 60px;
+}
+.nav-links{
+    font-size: 16px;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.book-button-header{
+    width: 182px;
+    height: 50px;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #ffff;
+    border-radius: 58px;
+    color: #ffff;
+}
+.preview{
+    max-width: 1920px;
+    width: 100%;
+    background: url(../pic/main-preview.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px calc(50% - 700px) 0;
+    height: 800px;
+}
+.title{
+    margin-top: 183px;
+    font-size: 64px;
+    color: #ffff;
+}
+.title-sub-preview{
+    font-size: 20px;
+}
+.book-button-title{
+    width: 377px;
+    height: 71px;
+    border: 1px solid #00B0BC;
+    background: rgba(0, 0, 0, 0);
+    color:#ffff;
+    font-size: 24px;
+}
+.opportunities{
+    margin: 120px 0  60px 0;
+    padding: 0 calc(50% - 500px)
+}
+
+.opportunities-card-wrap{
+    display: grid;
+    grid-template-columns: 569px 389px;
+    margin-bottom: 40px;
+    
+}
+.opportunities-card-text{
+    padding: 55px 0 0 65px;
+    box-sizing: border-box;
+}  
+.opportunities-card-title{
+    font-size: 36px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+.opportunities-card-discription{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+.more-info-button{
+    width: 146px;
+    height: 49px;
+    border: 1px solid #00B0BC;
+    background: rgba(0, 0, 0, 0);
+    color:#F2C94C;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.opportunities-card-wrap-revers{
+    display: grid;
+    grid-template-columns: 389px 569px ;
+    margin-bottom: 40px;
+}
+.more-info-button-long{
+    width: 282px;
+    height: 49px;
+    border: 1px solid #00B0BC;
+    background: rgba(0, 0, 0, 0);
+    color:#F2C94C;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.opportunities-pic {
+    display: inline-block; 
+   }
+   .opportunities-pic  {
+    transition: 1s; 
+   }
+   .opportunities-pic :hover {
+    transform: scale(1.2); 
+   }
+.benefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.benefits-title{
+    font-size: 40px;
+    font-weight: 500px;
+    margin-bottom: 60px;
+}
+.benefits-wrap{
+    display: grid;
+    grid-template-rows: repeat(4 , 186px);
+    grid-row-gap: 40px;
+    width: 958px;
+}
+.benefit-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benefits-row-number{
+    font-size: 24px;
+    margin-right: 24px;
+}
+.benefits-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.benefits-sub-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.benefits-discription{
+    font-size: 20px;
+    max-width: 600px;
+}
+.our-clients{
+    padding:0 calc(50% - 577px);
+    margin-bottom: 120px;
+}
+.clients-title{
+    font-size: 40px;
+    font-weight: 500px;
+    margin-bottom: 20px;
+}
+.client-sub-title{
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+.client-logo-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4 , 270px);
+    grid-column-gap: 25px;
+    grid-row-gap: 40px;
+}
+.slider{
+    overflow: hidden;
+    width: 940px;
+    margin-bottom: 196px;
+}
+.slider-line{
+    display: flex;
+    align-items: center;
+    max-width: 1380px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.slider-card{
+    width: 460px;
+    height: 206px;
+    border:1px solid #157E8D;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    margin-right: 20px;
+    
+}
+.slider-card-text{
+    display: flex;
+    flex-direction: column;
+    width: 229px;
+    margin-right: 30px;
+}
+.slider-card-title{
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+}
+.slider-button-wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.slider-button{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    background: rgba(0, 0, 0, 0);
+}
+.slider-button-svg{
+    color: black;
+    width: 20px;
+}
+.book-call{
+    display: flex;
+    justify-content: center;
+}
+.book-call-button{
+    width: 299px;
+    height: 69px;
+    background-color: #F2C94C;
+    color: black;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.blog{
+    padding: 0 calc(50% - 577px);
+}
+.blog-cards-wrap{
+    display: grid;
+    grid-template-columns: repeat(3 , 367px);
+    grid-column-gap: 20px;
+}
+.blog-title{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.blog-card{
+    height: 270px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+}
+.blog-card-text{
+    font-size: 24px;
+}
+.first-blog-card{
+    background-image: url(../pic/blog-card-3.png);
+}
+.second-blog-card{
+    background-image: url(../pic/blog-card-1.png);
+}
+.third-blog-card{
+    background-image: url(../pic/blog-card-2.png);
+}
